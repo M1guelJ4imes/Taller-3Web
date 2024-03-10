@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image:url(fondo1.jpg) ;
+}
+
+.form-re{
+    width: 400px;
+    background: #24303c;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-re h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #04bd04;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-re .boton{
+    width: 100%;
+    background-color: #04bd04;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
