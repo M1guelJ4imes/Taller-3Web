@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <style>
+        html, body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+          background: #ffe259;
+          background: linear-gradient(to right, #1d9995, #1d7899);
+        }
+        
+        .form-container {
+            border: 2px solid #278c91; 
+            border-radius: 10px; 
+            padding: 20px;
+            background-color: #278c91; 
+            width: 80%;
+            max-width: 600px;
+        }
+
+    </style>
+    
+
+    <title>Document</title>
+</head>
+
+    <body>
+        <div class="form-container">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-12 mt-5">
+                    <h1 class="is-size-1 ">Formulario</h1>
+                    <div class="field">
+                        <label class="label">Nombre</label>
+                        <div class="control has-icons-left">
+                            <input class="input is-primary" type="text">
+                            <span class="icon is-small is-left">
+                                <i class="zmdi zmdi-account zmdi-hc-lg"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Apellido</label>
+                        <div class="control has-icons-left">
+                            <input class="input is-primary" type="text">
+                            <span class="icon is-small is-left">
+                                <i class="zmdi zmdi-account zmdi-hc-lg"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Codigo</label>
+                        <div class="control has-icons-left">
+                            <input class="input is-primary" type="text">
+                            <span class="icon is-small is-left">
+                                <i class="zmdi zmdi-code zmdi-hc-lg"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field has-addons">
+                        <label class="label">Identificacion </label>
+                        <p class="control">
+                          <span class="select">
+                            <select>
+                              <option>CC</option>
+                              <option>TI</option>
+                              <option>CE</option>
+                            </select>
+                          </span>
+                        </p>
+                        <p class="control">
+                          <input class="input" type="text" >
+                        </p>
+                    </div>
+
+
+                    <div class="field">
+                        <label class="label">Pais</label>
+                        <div class="control has-icons-left">
+                        <span  class="select">
+                            <select>
+                            <option selected disabled hidden>Selecciona</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Guyana">Guyana</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Venezuela">Venezuela</option>
+                            </select>
+                        </span>
+                        <span class="icon is-small is-left">
+                            <i class="zmdi zmdi-globe zmdi-hc-lg"></i>
+                        </span>
+                        </p>
+                        </div>
+                    </div>
+
+
+                    <div class="field">
+                        <label class="label">Correo</label>
+                        <div class="control has-icons-left has-icons-left">
+                            <input class="input is-primary" type="email" placeholder="Email">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-left">
+                                <i class="zmdi zmdi-email zmdi-hc-lg"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Contraseña</label>
+                        <div class="control has-icons-left">
+                            <input class="input is-primary" type="password" placeholder="Password">
+                            <span class="icon is-small is-left">
+                                <i class="zmdi zmdi-key zmdi-hc-lg"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field is-expanded">
+                        <label class="label">Telefono</label>
+                        <div class="field has-addons">
+                          <p class="control">
+                            <a class="button is-static">
+                              +57
+                            </a>
+                          </p>
+                          <p class="control is-expanded">
+                            <input class="input" type="tel" placeholder="Tu numero">
+                          </p>
+                        </div>
+                    </div>
+
+                    <div class="control">
+                        <button class="button is-primary">Registrar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</div>
+</html>
