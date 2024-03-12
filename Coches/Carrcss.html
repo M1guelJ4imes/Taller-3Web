@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Formulario css</title>
+</head>
+
+<body>
+    <div class="contenedor-formulario">
+        <h4>Formulario de Registro</h4>
+        <form>
+            <div class="grupo-control">
+                <input class="controls" required="" type="text" name="coche" id="coche" placeholder="ID del coche">
+                <select class="controls" name="gaso" id="gaso">
+                    <option value="" disabled selected hidden>Gasolina Utilizada</option>
+                    <option value="Gasolina">Gasolina</option>
+                    <option value="Diesel">Diesel</option>
+                    <option value="Etanol">Etanol</option>
+                    <option value="Biodiésel">Biodiésel</option>
+                    <option value="GLP o autogás">GLP o autogás</option>
+                </select>
+            </div>
+            <div class="grupo-control">
+                <select class="controls" name="marca" id="marca">
+                    <option value="" disabled selected hidden>Marca</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Subaru">Subaru</option>
+                </select>
+                <select class="controls" name="Pais" id="Pais">
+                    <option value="" disabled selected hidden>Pais</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Guyana">Guyana</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select>
+            </div>
+            <div class="grupo-control">
+                <input class="controls" required="" type="text" name="Modelo" id="Modelo" placeholder="Modelo">
+                <input class="controls" required="" type="text" name="Año" id="Año" placeholder="Año">
+            </div>
+            <div class="grupo-control">
+                <input class="controls" required="" type="text" name="motor" id="motor" placeholder="Motor">
+                <input class="controls" required="" type="text" name="Moneda" id="Moneda" placeholder="Moneda">
+            </div>
+            <div class="grupo-control">
+                <input class="controls" required="" type="text" name="precio" id="precio" placeholder="Precio">
+                <input class="controls" required="" type="text" name="fecha" id="fecha" placeholder="Fecha Publicacion">
+            </div>
+
+            <div class="grupo-control">
+                <select class="controls" name="tipoIdentificacion" id="tipoIdentificacion">
+                    <option value="" disabled selected hidden>Identificacion de Usuario</option>
+                    <option value="CC">CC</option>
+                    <option value="TI">TI</option>
+                    <option value="CE">CE</option>
+                </select>
+                <input class="controls" required="" type="text" name="cedula" id="cedula" placeholder="Identificacion">
+            </div>
+
+            <textarea class="controls" id="frase1" rows="2" cols="2" placeholder="Destacados"></textarea>
+            <textarea class="controls" id="frase1" rows="4" cols="30" placeholder="Descripciones adicionales"></textarea>
+            <input class="boton" type="submit" value="Registrar">
+        </form>
+    </div>
+</body>
+</html>
