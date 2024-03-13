@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Formulario</title>
+    <style>
+
+body {
+            background: linear-gradient(135deg, #4CAF50, #FFC107); /* Cambié los colores de fondo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .formulario-container {
+            background: linear-gradient(135deg, #4CAF50, #FFC107); /* Cambié los colores de fondo */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .grupo-control {
+            margin-bottom: 1rem;
+        }
+
+        .boton {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario-container">
+            <h1 class="title is-1">Formulario</h1>
+            <form>
+                <div class="columns is-multiline">
+                    <div class="column is-half">
+                        <div class="grupo-control">
+                            <label for="coche">Identificacion del coche</label>
+                            <input class="input" required="" type="text" name="coche" id="coche" placeholder="ID del coche">
+                            <label for="Gaso">Gasolina Utilizada</label>
+                            <div class="select">
+                                <select name="gaso" id="gaso">
+                                    <option value="" disabled selected hidden>Opciones</option>
+                                    <option value="Gasolina">Gasolina</option>
+                                    <option value="Diesel">Diesel</option>
+                                    <option value="Etanol">Etanol</option>
+                                    <option value="Biodiésel">Biodiésel</option>
+                                    <option value="GLP o autogás">GLP o autogás</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grupo-control">
+                            <div class="select">
+                                <select name="marca" id="marca">
+                                    <option value="" disabled selected hidden>Marca</option>
+                                    <option value="Toyota">Toyota</option>
+                                    <option value="Volkswagen">Volkswagen</option>
+                                    <option value="Ford">Ford</option>
+                                    <option value="Honda">Honda</option>
+                                    <option value="Hyundai">Hyundai</option>
+                                    <option value="Tesla">Tesla</option>
+                                    <option value="Subaru">Subaru</option>
+                                </select>
+                            </div>
+                            <div class="select">
+                                <select name="Pais" id="Pais">
+                                    <option value="" disabled selected hidden>País</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Bolivia">Bolivia</option>
+                                    <option value="Brasil">Brasil</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Ecuador">Ecuador</option>
+                                    <option value="Guyana">Guyana</option>
+                                    <option value="Perú">Perú</option>
+                                    <option value="Uruguay">Uruguay</option>
+                                    <option value="Venezuela">Venezuela</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grupo-control">
+                            <label for="Modelo">Modelo</label>
+                            <input class="input" required="" type="text" name="Modelo" id="Modelo" placeholder="Modelo del cohce">
+                            <label for="Año">Año</label>
+                            <input class="input" required="" type="text" name="Año" id="Año" placeholder="Año de Publicacion">
+                            <label for="Modelo">Descripciones adicionales</label>
+                            <textarea class="textarea" id="frase2" rows="4" placeholder=""></textarea>
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <div class="grupo-control">
+                            <label for="motor">Motor</label>
+                            <input class="input" required="" type="text" name="motor" id="motor" >
+                            <label for="Moneda">Moneda</label>
+                            <input class="input" required="" type="text" name="Moneda" id="Moneda" >
+                        </div>
+                        <div class="grupo-control">
+                            <label for="precio">Precio</label>
+                            <input class="input" required="" type="text" name="precio" id="precio" placeholder="Precio">
+                            <label for="fecha">Fecha</label>
+                            <input class="input" required="" type="text" name="fecha" id="fecha" placeholder="Fecha Publicacion">
+                        </div>
+                        <div class="grupo-control">
+                            <div class="select">
+                                <select name="tipoIdentificacion" id="tipoIdentificacion">
+                                    <option value="" disabled selected hidden>Identificación de Usuario</option>
+                                    <option value="CC">CC</option>
+                                    <option value="TI">TI</option>
+                                    <option value="CE">CE</option>
+                                </select>
+                            </div>
+                            <input class="input" required="" type="text" name="cedula" id="cedula" placeholder="Identificación">
+                        </div>
+                        <div class="grupo-control">
+                            <label for="frase1">Destacados</label>
+                            <textarea class="textarea" id="frase1" rows="2" placeholder=""></textarea>
+
+                        </div>
+                        <div class="grupo-control">
+                            <input class="button is-primary boton" type="submit" value="Registrar">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
